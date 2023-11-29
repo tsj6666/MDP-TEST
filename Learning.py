@@ -5,6 +5,7 @@ import numpy as np
 import utils as utils
 import sys
 
+
 class Policy:
     def __init__(self, q_values):
         self.pi = {}
